@@ -1,14 +1,10 @@
 # 🏥 MediBot: Medical Symptom Diagnosis Expert System
 
-> A Rule-Based AI Expert System built in Prolog | AIML VITyarthi Project
-
----
-
 ## 📌 What Is This?
 
 **MediBot** is a Prolog-based **Expert System** that diagnoses common medical conditions from user-reported symptoms and recommends a treatment action plan.
 
-It is built on **Rule-Based Inference** — one of the oldest and most important paradigms in Artificial Intelligence. The same approach was used in **MYCIN** (Stanford, 1970s), one of the first AI systems to outperform human doctors in diagnosing bacterial infections.
+It is built on **Rule-Based Inference** one of the oldest and most important paradigms in Artificial Intelligence. The same approach was used in **MYCIN** (Stanford, 1970s), one of the first AI systems to outperform human doctors in diagnosing bacterial infections.
 
 This project demonstrates core AIML concepts including:
 - Knowledge Representation using Prolog facts and rules
@@ -99,20 +95,20 @@ brew install swi-prolog
 
 ---
 
-### Step 1 — Clone the Repository
+### Step 1 Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/medibot-aiml-project.git
 cd medibot-aiml-project
 ```
 
-### Step 2 — Launch SWI-Prolog
+### Step 2 Launch SWI-Prolog
 
 ```bash
 swipl
 ```
 
-### Step 3 — Load and Run MediBot
+### Step 3 Load and Run MediBot
 
 ```prolog
 ?- consult('main.pl').
@@ -162,22 +158,5 @@ RECOMMENDED ACTION:
   5. Seek hospital care urgently if SpO2 drops below 94%
      or breathing becomes laboured.
 
-=====================================================
   Diagnosis Complete. Stay safe!
-=====================================================
 ```
-
----
-
-## ⚠️ Disclaimer
-
-This system is built **for educational purposes only** as part of a university AIML course. It is **not** a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider.
-
----
-
-## 📚 References & Further Reading
-
-- [SWI-Prolog Official Documentation](https://www.swi-prolog.org/pldoc/index.html)
-- MYCIN Expert System — Shortliffe, E.H. (1976), *Computer-Based Medical Consultations*
-- [Learn Prolog Now! — Free Online Book](https://www.let.rug.nl/bos/lpn/lpnpage.php?pageid=online)
-- Russell & Norvig — *Artificial Intelligence: A Modern Approach* (Chapter 7: Logical Agents)
